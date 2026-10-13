@@ -1,0 +1,201 @@
+customer_id,name,email,phone,city
+C0001,IMRAN SHEIKH,imran.sheikh29@northwind.com,69600 13389,Bengaluru
+C0002,Sanjay Nair,sanjay.nair20@northwind.com,66155 94078,KOLKATA
+C0003,Arjun Rao,arjun.rao11@northwind.com,9525534192,bengaluru
+C0004,  arun rao   ,arun.rao35@gmail.com,8376724238,Kolkata
+C0005,   meera sheikh   ,meera.sheikh77@gmail.com,98480 18451,Mumbai
+C0006,   ,bhavna.sheikh82@northwind.com,69570 15430,PUNE
+C0007,   ,pooja.pillai78@outlook.com,74657 87133, Hyderabad
+C0008,Jo,swati.menon28@northwind.com,93763-11656,Hyderabad
+C0009, Vikram Singh  ,   vikram.singh60@northwind.com,6801326773,  hyderabad  
+C0010,Kavya Pillai,   kavya.pillai25@yahoo.co.in,80097 88208, MUMBAI   
+C0011,Anjali Mehta,   anjali.mehta67@yahoo.co.in  ,7462475107,  PUNE 
+C0012,Priya Sharma,priya.sharma79@gmail.com,62411 82449,delhi
+C0013,  Arjun Desai ,arjun.desai82@yahoo.co.in,9801128059,KOLKATA
+C0014,Vikram Iyer,vikram.iyer72@outlook.com,72260 25634,PUNe
+C0015,  neha menon  ,neha.menon83@outlook.com,80142-94019,
+C0016,Suresh Kumar,   suresh.kumar88@northwind.com  ,81484 65648,Kolkata
+C0017,AruN kumar,ARUN.KUMAR37@YAHOO.CO.IN,7433200379,Pune
+C0018,Kiran Kumar,kiran.kumar14@outlook.com,9083172788,Ahmedabad
+C0019,Kavya Patel,kavya.patel82.yahoo.co.in,74714 34558,mumbai
+C0020,,suresh.rao99@gmail.com,9705466889,ahmedabad
+C0021,Priya Sharma,,61627 20465,dElHi
+C0022,Arjun Rao,  arjun.rao26@gmail.com,77452 99124,Hyderabad
+C0023,KARTHIK IYER,karthik.iyer88@gmail.com,6586518506,Pune
+C0024,Amit Verma,amit.verma62@outlook.com,8531473799,DELHI
+C0025,Nikhil Bose,NIKHIL.BOSE2@NORTHWIND.COM,98377-70143, bEnGaLuRU  
+C0026,vikram patel,vikram.patel98@yahoo.co.in,8352408240,  Chennai
+C0027,priya rao,   priya.rao15@gmail.com,7294131869,Bengaluru
+C0028,KARTHIK BOSE,karthik.bose13@northwind.com,6232812067,   ahmedabad  
+C0029,Ritu Das,ritu.das55@gmail.com,821024994,
+C0030, Suresh Menon,suresh.menon98@yahoo.co.in,+91 7787429671,koLkAta
+C0031,,neha.joshi53@gmail.com,97034 82477,Bengaluru
+C0032,Sana Sharma,sana.sharma20@outlook.com,8677378263,Mumbai
+C0033,arun kumar,arun.kumar76@outlook.com,9558867533,Bengaluru
+C0034,   Deepa Reddy  ,DEEPA.REDDY13@OUTLOOK.COM,6262174596,Delhi
+C0035,   SWATI PILLAI  ,   swati.pillai30@gmail.com,924005045,Bengaluru
+C0036,Anjali Iyer,anjali.iyer30@outlook.com,6748217594,Kolkata
+C0037,NeHa Das,neha.das78@outlook.com,79533-94210,AHMEDABAD
+C0038,Vikram Reddy,vikram.reddy47@yahoo.co.in,94517-12368,KOLKATA
+C0039, ARUN GUPTA  ,arun.gupta79@northwind.com,94612 00471,Mumbai
+C0040,   ,rohit.rao47@gmail.com,8064317139, Hyderabad 
+C0041, SwAtI IYeR  ,  swati.iyer3@northwind.com,6775891783,
+C0042,   Pooja Babu   , pooja.babu10@gmail.com  ,8698478961,Pune
+C0043,   DIVYa DeSaI  ,divya.desai17@gmail.com,81656 04945,bengaluru
+C0044,rohit das,rohit.das72.gmail.com,8024455022,KOLKATA
+C0045,anil menon,   anil.menon42@gmail.com,,Pune
+C0046,Vikram Reddy,vikram.reddy16@gmail.com,76838-85160,Ahmedabad
+C0047,   ,sana.babu80@outlook.com,6613696816,delhi
+C0048,saNJAY gUptA,sanjay.gupta75@outlook.com,85271 77449,PUnE
+C0049,Sneha Rao,sneha.rao84@northwind.com,7071518203,Ahmedabad
+C0050,S,deepa.bose43@gmail.com,94492-51925,KOLKATA
+C0051,DEEPA JOSHI,DEEPA.JOSHI66@YAHOO.CO.IN,7573322141,Hyderabad
+C0052,  Manoj Bose,  manoj.bose53@yahoo.co.in  ,+91 9383473597,Chennai
+C0053,SWATI VERMA,swati.verma48@gmail.com,6412478261,Bengaluru
+C0054,Neha MEhtA, neha.mehta58@gmail.com ,+91 9143410369,Pune
+C0055,,fatima.desai74@outlook.com,81888 88067,Kolkata
+C0056,Imran Sheikh,IMRAN.SHEIKH43@NORTHWIND.COM,77722 17043,Bengaluru
+C0057,meera singh,meera.singh7@yahoo.co.in,967652775,   Pune 
+C0058,Fatima Sharma,  fatima.sharma89@outlook.com   ,,   AHMEDABAD  
+C0059,aniL GUpTA,   anil.gupta34@yahoo.co.in  ,9312172715,Pune
+C0060, Priya Gupta ,PRIYA.GUPTA31@OUTLOOK.COM,8782911467,  Kolkata
+C0061, Sanjay Pillai   ,sanjay.pillai65@gmail.com,82253 58414,CHENNAI
+C0062,Kiran Nair,kiran.nair78@yahoo.co.in,+91 6109439690,Chennai
+C0063,manoj rao,   manoj.rao60@northwind.com  ,86258 81537,  ahmedabad   
+C0064,Arun Menon,arun.menon25@northwind.com,9470168733,HYDERABAD
+C0065,Swati Sheikh,swati.sheikh94@yahoo.co.in,909835841,Chennai
+C0066,Lakshmi Pillai, lakshmi.pillai26@outlook.com  ,98729 82595,Chennai
+C0067,RAVi guPta,   ravi.gupta30@gmail.com   ,73091 30756,Bengaluru
+C0068,kiran joshi,kiran.joshi85@outlook.com,7785854973,  Chennai  
+C0069,sneha verma,sneha.verma70@outlook.com,82404 15747,Chennai
+C0070, deepa joshi   ,DEEPA.JOSHI43@OUTLOOK.COM,6826773454,   Pune
+C0071,Bhavna Rao,bhavna.rao64@northwind.com,8004991547,   Ahmedabad   
+C0072,  Imran Verma  ,imran.verma73@northwind.com,96851-61227,BENGALURU
+C0073,karthik kumar,karthik.kumar31@gmail.com,7684145933,ahmedabad
+C0074,Sneha Singh,sneha.singh77@gmail.com,81910 88398,Delhi
+C0075,,anil.rao59@gmail.com,80640-39106, Pune   
+C0076,kAvYA dEsAi,kavya.desai17@northwind.com,87868 63375,Bengaluru
+C0077,   nikhil kumar,  nikhil.kumar58@gmail.com ,7028439599,delhi
+C0078,Sneha Das,  sneha.das81@outlook.com   ,8662462873,  Chennai
+C0079,divya verma,DIVYA.VERMA58@YAHOO.CO.IN,,Bengaluru
+C0080,Kavya Sheikh,  kavya.sheikh32@northwind.com  ,,Ahmedabad
+C0081,KAVYA REDDY, kavya.reddy75@outlook.com   ,77854 77725,ahmedabad
+C0082,Arjun Rao,,80997-70088,Hyderabad
+C0083, RITU NAIR ,,,HYDERABAD
+C0084,Pooja Desai,pooja.desai13@gmail.com,940148902,Bengaluru
+C0085,Divya Das,divya.das70@yahoo.co.in,6850163159,Kolkata
+C0086,Sneha Babu,SNEHA.BABU85.OUTLOOK.COM,711426265,Hyderabad
+C0087, Sneha Pillai  ,sneha.pillai71@gmail.com,90466 18398,kolkata
+C0088,Fatima Patel, fatima.patel32@outlook.com ,8065965756,muMBAI
+C0089,rOhIt baBu,  rohit.babu9@outlook.com ,8266179796,Kolkata
+C0090,Arjun Sheikh,   arjun.sheikh46@northwind.com   ,8610143888,Bengaluru
+C0091,RAVI PATEL,ravi.patel11@gmail.com,84573-87571, AhMedaBaD  
+C0092,Priya Nair,priya.nair4@northwind.com,63341-91825,AHMEDABAD
+C0093,NEHA DAS,neha.das59@northwind.com,89912 51341,Mumbai
+C0094,Manoj Nair,manoj.nair18.northwind.com,,Ahmedabad
+C0095,fatima rao,fatima.rao22@outlook.com,9881914858,Hyderabad
+C0096,  Divya Khan  , divya.khan12@outlook.com ,89629-23309,   Chennai  
+C0097,DEEPA SHEIKH,deepa.sheikh53@gmail.com,7232536729,KolKata
+C0098,,arjun.sharma9@outlook.com,7745458929,
+C0099,  Bhavna Nair ,bhavna.nair89.northwind.com,8154152064, Bengaluru
+C0100,   ,anil.kumar16@outlook.com,7611155426,Mumbai
+C0101,  Rahul Singh   , rahul.singh28@gmail.com   ,8652341389,Chennai
+C0102,,  amit.singh7.northwind.com,6552696582,  PUNE 
+C0103,Imran Joshi,imran.joshi52@gmail.com,,PuNE
+C0104,   ,deepa.nair90@gmail.com,8252410564,Chennai
+C0105,KArtHiK NAIR,   karthik.nair5@outlook.com  ,8195180238,KOLKATA
+C0106,ravi gupta,ravi.gupta39@northwind.com,938320abcd,   Hyderabad   
+C0107, Divya Desai  ,divya.desai12@gmail.com,9571918261,Hyderabad
+C0108,,MANOJ.MENON34@GMAIL.COM,8903521356,chennai
+C0109,Divya Sheikh,DIVYA.SHEIKH18.GMAIL.COM,72365 19941,pune
+C0110,   Sana Rao   ,sana.rao93@outlook.com,925324472,Bengaluru
+C0111,Suresh Singh,suresh.singh32@gmail.com,87875 98564,  Delhi
+C0112,DIVYA NAIR,divya.nair35@gmail.com,9522395590,Delhi
+C0113,POOJa pILlai,pooja.pillai3@northwind.com,68515-69154,Mumbai
+C0114,   Sneha Bose ,sneha.bose49@yahoo.co.in,70969 02959,   Pune
+C0115,Arjun Menon,arjun.menon32@gmail.com,6067626765,Pune
+C0116,,ritu.rao14@gmail.com,7181599706,Mumbai
+C0117,sneha pillai,SNEHA.PILLAI31@GMAIL.COM,920506abcd,hyderabad
+C0118,Jo,pooja.patel83@outlook.com,8270477434,Mumbai
+C0119,DIVYA PILLAI,divya.pillai67@outlook.com,9937416089,MUMBAI
+C0120,Kiran Rao,kiran.rao56@northwind.com,8511686854,Hyderabad
+C0121,Karthik Das,karthik.das14@gmail.com,86467 99702,Mumbai
+C0122,Meera Patel,meera.patel3@yahoo.co.in,8713247546,  pune   
+C0123,pRiyA meHTa,priya.mehta36@yahoo.co.in,6035797279,delhi
+C0124, Priya Das ,priya.das87@northwind.com,6072290349,Chennai
+C0125,vikRam shArMA,vikram.sharma42@yahoo.co.in,,Ahmedabad
+C0126,karThIK siNGh,karthik.singh72@northwind.com,635346554,Pune
+C0127,Amit Sheikh,AMIT.SHEIKH39@OUTLOOK.COM,+91 7356972521,MUMbaI
+C0128,  SURESh paTeL  ,,87898-56257,bengaluru
+C0129,,vikram.kumar49@yahoo.co.in,610016abcd,mumbai
+C0130,Anjali Bose,anjali.bose14@gmail.com,,Ahmedabad
+C0131, Sana Das,sana.das93@gmail.com,9447012045, Delhi
+C0132,anil bose,anil.bose48@yahoo.co.in,94676 21202,
+C0133,Deepa Reddy,DEEPA.REDDY53@OUTLOOK.COM,80899 35889,Bengaluru
+C0134,Jo,anjali.rao65@outlook.com,675354abcd,  Kolkata   
+C0135,IMRAN KUMAR,imran.kumar72.gmail.com,88837-55037,
+C0136,Rahul Khan,rahul.khan14@gmail.com,9149331637,  Bengaluru
+C0137,Anil Sharma,ANIL.SHARMA18@OUTLOOK.COM,9978292216,Delhi
+C0138,  Lakshmi Khan  ,lakshmi.khan90@yahoo.co.in,7339452288,Delhi
+C0139,deepa pillai,   DEEPA.PILLAI2@GMAIL.COM,74244 20438,AHMEDABAD
+C0140,Divya Joshi,divya.joshi37@gmail.com,8800439735,Bengaluru
+C0141,  PRIYA JOSHI  ,priya.joshi17@northwind.com,+91 8720259094,DELHI
+C0142,Priya Desai,priya.desai45@northwind.com,,ahmedabad
+C0143,nEha sHEiKh,   neha.sheikh22@gmail.com ,91386 12075,PUNE
+C0144,Neha Sharma,neha.sharma3@outlook.com,69015 81449,aHMEdabAd
+C0145, Ravi Pillai,ravi.pillai74@outlook.com,8353682223,   chennai
+C0146, sneha mehta ,sneha.mehta93@outlook.com,7149135775,   Chennai  
+C0147,Ritu Iyer,RITU.IYER36@YAHOO.CO.IN,977547812,   Chennai 
+C0148,Ravi Joshi, ravi.joshi75@outlook.com  ,9256394278,   KOlkatA 
+C0149,POOJA IYER,pooja.iyer6@northwind.com,9770051844,  MumBAi  
+C0150,Ravi Joshi,ravi.joshi30@gmail.com,+91 7225913651,Ahmedabad
+C0151,KARTHIK NAIR,KARTHIK.NAIR74@NORTHWIND.COM,7869904137,  Ahmedabad 
+C0152,Rohit Nair,rohit.nair59.gmail.com,+91 6038862912,Hyderabad
+C0153,Sneha Kumar,sneha.kumar84@outlook.com,68637-65991,
+C0154, Kavya Kumar   ,kavya.kumar84@northwind.com,81269-44869,Chennai
+C0155,,sneha.pillai74.yahoo.co.in,7137213865,hyderabad
+C0156, SURESH MEHTA,suresh.mehta93@outlook.com,89027 70384,Bengaluru
+C0157,RohiT BabU,  rohit.babu36@northwind.com,8268181845,Chennai
+C0158,Sanjay Iyer,sanjay.iyer59@outlook.com,9141633565,Hyderabad
+C0159,Sneha Nair,sneha.nair74@yahoo.co.in,7733343333,
+C0160,,pooja.gupta74@yahoo.co.in,86392 08678,dElhI
+C0161,anjali verma,anjali.verma35@outlook.com,77636 55647,Mumbai
+C0162,swati babu,  swati.babu95@northwind.com   ,78857-44890,MUMBAI
+C0163,Rahul Gupta,   RAHUL.GUPTA33@YAHOO.CO.IN ,74558 77169,Mumbai
+C0164,BHAVNA MEHTA,bhavna.mehta41@yahoo.co.in,947598762,Mumbai
+C0165,,SANA.SHEIKH71@GMAIL.COM,6149216433, Ahmedabad
+C0166,,anil.pillai18@northwind.com,98845-78317,kolkata
+C0167,POOJA PILLAI,pooja.pillai97@outlook.com,893085368,Mumbai
+C0168,,amit.bose37@yahoo.co.in,72417 97497,hyderabad
+C0169,  anil kumar ,anil.kumar44@outlook.com,870512abcd,mumbai
+C0170,Divya Babu,,6837645208,Chennai
+C0171,,DIVYA.DESAI98@GMAIL.COM,6273585730,Delhi
+C0172,Pooja Singh,pooja.singh42@outlook.com,71827 44857,Kolkata
+C0173,   Arjun Pillai   ,arjun.pillai99@northwind.com,81181 02203,BENGALURU
+C0174,rOhIT RaO,   rohit.rao54@yahoo.co.in  ,61413-81138,   Bengaluru 
+C0175,Karthik Gupta,  karthik.gupta55@gmail.com  ,7897558556,Kolkata
+C0176,KaVYA VeRmA,kavya.verma99@yahoo.co.in,71075 22459,  Chennai 
+C0177,Jo,  ARUN.DAS5@OUTLOOK.COM  ,96139 06048,mUmbai
+C0178,  Arjun Patel  ,arjun.patel11@outlook.com,7278376938,bengaluru
+C0179,SUreSH deSaI,   SURESH.DESAI20@GMAIL.COM ,8051477053,bengaluru
+C0180,,   manoj.kumar85@yahoo.co.in   ,76815 79812,Ahmedabad
+C0181,KAVYA NAIR,kavya.nair46@yahoo.co.in,8046084325,MUMBAI
+C0182,divya das,,72482 62925,pune
+C0183,Suresh Khan,,69949 99393, hYderAbAD   
+C0184,  Kavya Singh   ,,9609656999,Hyderabad
+C0185,Neha Rao,neha.rao81@gmail.com,+91 8472649082,AHMEDABAD
+C0186,NEha DEsaI,neha.desai12@gmail.com,6868926860,Delhi
+C0187,  sUrESH KHan ,suresh.khan28@outlook.com,63849 83022,DELHI
+C0188,   Meera Sheikh  ,meera.sheikh79@northwind.com,80145 56168,AHMEDABAD
+C0189,ANJALI RAO,anjali.rao81@gmail.com,8695489952,Ahmedabad
+C0190,VIKRAM KUMAR,vikram.kumar16@northwind.com,9055830344,chENNai
+C0191,Pooja Rao,pooja.rao81@outlook.com,87608 49588,
+C0192,Neha Pillai,neha.pillai50@northwind.com,8504617357,chennai
+C0193,ANIL JOSHI,anil.joshi65@northwind.com,852182307,PUNE
+C0194,Meera Sheikh,meera.sheikh40@gmail.com,75334 48571,   mumbai
+C0195,Jo,   MANOJ.KHAN70@OUTLOOK.COM,6601662997,   CheNnai   
+C0196,DIVYA IYER,divya.iyer34@yahoo.co.in,+91 8577017157,mumbai
+C0197,  Sana Menon   , sana.menon52@outlook.com   ,9153966958,   Mumbai   
+C0198,   Anil NaIR,anil.nair97@northwind.com,8699733549,Chennai
+C0199,  Anjali Joshi,ANJALI.JOSHI48@GMAIL.COM,81403-69656,Kolkata
+C0200,arun desai, ARUN.DESAI86@NORTHWIND.COM ,96212 67969,Kolkata

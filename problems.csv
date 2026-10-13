@@ -1,0 +1,67 @@
+customer_id,name,email,phone,city,problems
+C0006,   ,bhavna.sheikh82@northwind.com,69570 15430,PUNE,Name is missing
+C0007,   ,pooja.pillai78@outlook.com,74657 87133, Hyderabad,Name is missing
+C0008,Jo,swati.menon28@northwind.com,93763-11656,Hyderabad,Name is too short
+C0019,Kavya Patel,kavya.patel82.yahoo.co.in,74714 34558,mumbai,Email is invalid
+C0020,,suresh.rao99@gmail.com,9705466889,ahmedabad,Name is missing
+C0021,Priya Sharma,,61627 20465,dElHi,Email is missing
+C0029,Ritu Das,ritu.das55@gmail.com,821024994,,Phone is invalid
+C0031,,neha.joshi53@gmail.com,97034 82477,Bengaluru,Name is missing
+C0035,   SWATI PILLAI  ,   swati.pillai30@gmail.com,924005045,Bengaluru,Phone is invalid
+C0040,   ,rohit.rao47@gmail.com,8064317139, Hyderabad ,Name is missing
+C0044,rohit das,rohit.das72.gmail.com,8024455022,KOLKATA,Email is invalid
+C0045,anil menon,   anil.menon42@gmail.com,,Pune,Phone is missing
+C0047,   ,sana.babu80@outlook.com,6613696816,delhi,Name is missing
+C0050,S,deepa.bose43@gmail.com,94492-51925,KOLKATA,Name is too short
+C0055,,fatima.desai74@outlook.com,81888 88067,Kolkata,Name is missing
+C0057,meera singh,meera.singh7@yahoo.co.in,967652775,   Pune ,Phone is invalid
+C0058,Fatima Sharma,  fatima.sharma89@outlook.com   ,,   AHMEDABAD  ,Phone is missing
+C0065,Swati Sheikh,swati.sheikh94@yahoo.co.in,909835841,Chennai,Phone is invalid
+C0075,,anil.rao59@gmail.com,80640-39106, Pune   ,Name is missing
+C0079,divya verma,DIVYA.VERMA58@YAHOO.CO.IN,,Bengaluru,Phone is missing
+C0080,Kavya Sheikh,  kavya.sheikh32@northwind.com  ,,Ahmedabad,Phone is missing
+C0082,Arjun Rao,,80997-70088,Hyderabad,Email is missing
+C0083, RITU NAIR ,,,HYDERABAD,Email is missing; Phone is missing
+C0084,Pooja Desai,pooja.desai13@gmail.com,940148902,Bengaluru,Phone is invalid
+C0086,Sneha Babu,SNEHA.BABU85.OUTLOOK.COM,711426265,Hyderabad,Email is invalid; Phone is invalid
+C0094,Manoj Nair,manoj.nair18.northwind.com,,Ahmedabad,Email is invalid; Phone is missing
+C0098,,arjun.sharma9@outlook.com,7745458929,,Name is missing
+C0099,  Bhavna Nair ,bhavna.nair89.northwind.com,8154152064, Bengaluru,Email is invalid
+C0100,   ,anil.kumar16@outlook.com,7611155426,Mumbai,Name is missing
+C0102,,  amit.singh7.northwind.com,6552696582,  PUNE ,Name is missing; Email is invalid
+C0103,Imran Joshi,imran.joshi52@gmail.com,,PuNE,Phone is missing
+C0104,   ,deepa.nair90@gmail.com,8252410564,Chennai,Name is missing
+C0106,ravi gupta,ravi.gupta39@northwind.com,938320abcd,   Hyderabad   ,Phone is invalid
+C0108,,MANOJ.MENON34@GMAIL.COM,8903521356,chennai,Name is missing
+C0109,Divya Sheikh,DIVYA.SHEIKH18.GMAIL.COM,72365 19941,pune,Email is invalid
+C0110,   Sana Rao   ,sana.rao93@outlook.com,925324472,Bengaluru,Phone is invalid
+C0116,,ritu.rao14@gmail.com,7181599706,Mumbai,Name is missing
+C0117,sneha pillai,SNEHA.PILLAI31@GMAIL.COM,920506abcd,hyderabad,Phone is invalid
+C0118,Jo,pooja.patel83@outlook.com,8270477434,Mumbai,Name is too short
+C0125,vikRam shArMA,vikram.sharma42@yahoo.co.in,,Ahmedabad,Phone is missing
+C0126,karThIK siNGh,karthik.singh72@northwind.com,635346554,Pune,Phone is invalid
+C0128,  SURESh paTeL  ,,87898-56257,bengaluru,Email is missing
+C0129,,vikram.kumar49@yahoo.co.in,610016abcd,mumbai,Name is missing; Phone is invalid
+C0130,Anjali Bose,anjali.bose14@gmail.com,,Ahmedabad,Phone is missing
+C0134,Jo,anjali.rao65@outlook.com,675354abcd,  Kolkata   ,Name is too short; Phone is invalid
+C0135,IMRAN KUMAR,imran.kumar72.gmail.com,88837-55037,,Email is invalid
+C0142,Priya Desai,priya.desai45@northwind.com,,ahmedabad,Phone is missing
+C0147,Ritu Iyer,RITU.IYER36@YAHOO.CO.IN,977547812,   Chennai ,Phone is invalid
+C0152,Rohit Nair,rohit.nair59.gmail.com,+91 6038862912,Hyderabad,Email is invalid
+C0155,,sneha.pillai74.yahoo.co.in,7137213865,hyderabad,Name is missing; Email is invalid
+C0160,,pooja.gupta74@yahoo.co.in,86392 08678,dElhI,Name is missing
+C0164,BHAVNA MEHTA,bhavna.mehta41@yahoo.co.in,947598762,Mumbai,Phone is invalid
+C0165,,SANA.SHEIKH71@GMAIL.COM,6149216433, Ahmedabad,Name is missing
+C0166,,anil.pillai18@northwind.com,98845-78317,kolkata,Name is missing
+C0167,POOJA PILLAI,pooja.pillai97@outlook.com,893085368,Mumbai,Phone is invalid
+C0168,,amit.bose37@yahoo.co.in,72417 97497,hyderabad,Name is missing
+C0169,  anil kumar ,anil.kumar44@outlook.com,870512abcd,mumbai,Phone is invalid
+C0170,Divya Babu,,6837645208,Chennai,Email is missing
+C0171,,DIVYA.DESAI98@GMAIL.COM,6273585730,Delhi,Name is missing
+C0177,Jo,  ARUN.DAS5@OUTLOOK.COM  ,96139 06048,mUmbai,Name is too short
+C0180,,   manoj.kumar85@yahoo.co.in   ,76815 79812,Ahmedabad,Name is missing
+C0182,divya das,,72482 62925,pune,Email is missing
+C0183,Suresh Khan,,69949 99393, hYderAbAD   ,Email is missing
+C0184,  Kavya Singh   ,,9609656999,Hyderabad,Email is missing
+C0193,ANIL JOSHI,anil.joshi65@northwind.com,852182307,PUNE,Phone is invalid
+C0195,Jo,   MANOJ.KHAN70@OUTLOOK.COM,6601662997,   CheNnai   ,Name is too short

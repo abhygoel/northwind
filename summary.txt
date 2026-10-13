@@ -1,0 +1,15 @@
+Northwind customer data check
+Run date: 2026-10-14
+Input File: customers_200.csv
+
+Records checked: 200
+Clean: 134
+Need fixing: 66
+
+Problems by type:
+- Name is missing: 22
+- Name is too short: 6
+- Email is invalid: 10
+- Email is missing: 8
+- Phone is invalid: 17
+- Phone is missing: 10
