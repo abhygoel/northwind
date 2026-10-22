@@ -1,3 +1,9 @@
+import re
+
+NAME_PATTERN = r"[A-Za-z][A-Za-z .'-]+"
+EMAIL_PATTERN = r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+PHONE_PATTERN = r"[6-9]\d{9}"
+
 def clean_name(name):
     return name.strip().title()
 
@@ -5,9 +11,11 @@ def clean_email(email):
     return email.strip().lower()
 
 def clean_phone(phone):
-    phone = phone.replace(" ", "").replace("-", "")
-    if phone.startswith("+91"):
-        return phone[3:]
+    phone = re.sub(r"\D", "", phone)
+    if len(phone) == 12 and phone.startswith("91"):
+        return phone[2:]
+    elif len(phone) == 11 and phone.startswith("0"):
+        return phone[1:]
     else:
         return phone
 
@@ -28,13 +36,15 @@ def check_name(name):
         return "Name is missing"
     elif len(name) < 3:
         return "Name is too short"
+    elif not re.fullmatch(NAME_PATTERN, name):
+        return "Name is invalid"
     else:
         return "Name is valid"
 
 def check_email(email):
     if len(email) == 0:
         return "Email is missing"
-    elif "@" not in email:
+    elif not re.fullmatch(EMAIL_PATTERN, email):
         return "Email is invalid"
     else:
         return "Email is valid"
@@ -42,7 +52,7 @@ def check_email(email):
 def check_phone(phone):
     if len(phone) == 0:
         return "Phone is missing"
-    elif len(phone) != 10 or (not phone.isdigit()):
+    elif not re.fullmatch(PHONE_PATTERN, phone):
         return "Phone is invalid"
     else:
         return "Phone is valid"

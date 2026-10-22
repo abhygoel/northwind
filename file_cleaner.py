@@ -4,7 +4,7 @@ import os
 import sys
 from datetime import date
 
-input_file = "customers_200.csv"
+input_file = "customers_week4.csv"
 clean_file = "clean_customers.csv"
 problem_file = "problems.csv"
 summary_file = "summary.txt"

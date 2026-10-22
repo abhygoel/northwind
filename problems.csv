@@ -1,67 +1,122 @@
 customer_id,name,email,phone,city,problems
-C0006,   ,bhavna.sheikh82@northwind.com,69570 15430,PUNE,Name is missing
-C0007,   ,pooja.pillai78@outlook.com,74657 87133, Hyderabad,Name is missing
-C0008,Jo,swati.menon28@northwind.com,93763-11656,Hyderabad,Name is too short
-C0019,Kavya Patel,kavya.patel82.yahoo.co.in,74714 34558,mumbai,Email is invalid
-C0020,,suresh.rao99@gmail.com,9705466889,ahmedabad,Name is missing
-C0021,Priya Sharma,,61627 20465,dElHi,Email is missing
-C0029,Ritu Das,ritu.das55@gmail.com,821024994,,Phone is invalid
-C0031,,neha.joshi53@gmail.com,97034 82477,Bengaluru,Name is missing
-C0035,   SWATI PILLAI  ,   swati.pillai30@gmail.com,924005045,Bengaluru,Phone is invalid
-C0040,   ,rohit.rao47@gmail.com,8064317139, Hyderabad ,Name is missing
-C0044,rohit das,rohit.das72.gmail.com,8024455022,KOLKATA,Email is invalid
-C0045,anil menon,   anil.menon42@gmail.com,,Pune,Phone is missing
-C0047,   ,sana.babu80@outlook.com,6613696816,delhi,Name is missing
-C0050,S,deepa.bose43@gmail.com,94492-51925,KOLKATA,Name is too short
-C0055,,fatima.desai74@outlook.com,81888 88067,Kolkata,Name is missing
-C0057,meera singh,meera.singh7@yahoo.co.in,967652775,   Pune ,Phone is invalid
-C0058,Fatima Sharma,  fatima.sharma89@outlook.com   ,,   AHMEDABAD  ,Phone is missing
-C0065,Swati Sheikh,swati.sheikh94@yahoo.co.in,909835841,Chennai,Phone is invalid
-C0075,,anil.rao59@gmail.com,80640-39106, Pune   ,Name is missing
-C0079,divya verma,DIVYA.VERMA58@YAHOO.CO.IN,,Bengaluru,Phone is missing
-C0080,Kavya Sheikh,  kavya.sheikh32@northwind.com  ,,Ahmedabad,Phone is missing
-C0082,Arjun Rao,,80997-70088,Hyderabad,Email is missing
-C0083, RITU NAIR ,,,HYDERABAD,Email is missing; Phone is missing
-C0084,Pooja Desai,pooja.desai13@gmail.com,940148902,Bengaluru,Phone is invalid
-C0086,Sneha Babu,SNEHA.BABU85.OUTLOOK.COM,711426265,Hyderabad,Email is invalid; Phone is invalid
-C0094,Manoj Nair,manoj.nair18.northwind.com,,Ahmedabad,Email is invalid; Phone is missing
-C0098,,arjun.sharma9@outlook.com,7745458929,,Name is missing
-C0099,  Bhavna Nair ,bhavna.nair89.northwind.com,8154152064, Bengaluru,Email is invalid
-C0100,   ,anil.kumar16@outlook.com,7611155426,Mumbai,Name is missing
-C0102,,  amit.singh7.northwind.com,6552696582,  PUNE ,Name is missing; Email is invalid
-C0103,Imran Joshi,imran.joshi52@gmail.com,,PuNE,Phone is missing
-C0104,   ,deepa.nair90@gmail.com,8252410564,Chennai,Name is missing
-C0106,ravi gupta,ravi.gupta39@northwind.com,938320abcd,   Hyderabad   ,Phone is invalid
-C0108,,MANOJ.MENON34@GMAIL.COM,8903521356,chennai,Name is missing
-C0109,Divya Sheikh,DIVYA.SHEIKH18.GMAIL.COM,72365 19941,pune,Email is invalid
-C0110,   Sana Rao   ,sana.rao93@outlook.com,925324472,Bengaluru,Phone is invalid
-C0116,,ritu.rao14@gmail.com,7181599706,Mumbai,Name is missing
-C0117,sneha pillai,SNEHA.PILLAI31@GMAIL.COM,920506abcd,hyderabad,Phone is invalid
-C0118,Jo,pooja.patel83@outlook.com,8270477434,Mumbai,Name is too short
-C0125,vikRam shArMA,vikram.sharma42@yahoo.co.in,,Ahmedabad,Phone is missing
-C0126,karThIK siNGh,karthik.singh72@northwind.com,635346554,Pune,Phone is invalid
-C0128,  SURESh paTeL  ,,87898-56257,bengaluru,Email is missing
-C0129,,vikram.kumar49@yahoo.co.in,610016abcd,mumbai,Name is missing; Phone is invalid
-C0130,Anjali Bose,anjali.bose14@gmail.com,,Ahmedabad,Phone is missing
-C0134,Jo,anjali.rao65@outlook.com,675354abcd,  Kolkata   ,Name is too short; Phone is invalid
-C0135,IMRAN KUMAR,imran.kumar72.gmail.com,88837-55037,,Email is invalid
-C0142,Priya Desai,priya.desai45@northwind.com,,ahmedabad,Phone is missing
-C0147,Ritu Iyer,RITU.IYER36@YAHOO.CO.IN,977547812,   Chennai ,Phone is invalid
-C0152,Rohit Nair,rohit.nair59.gmail.com,+91 6038862912,Hyderabad,Email is invalid
-C0155,,sneha.pillai74.yahoo.co.in,7137213865,hyderabad,Name is missing; Email is invalid
-C0160,,pooja.gupta74@yahoo.co.in,86392 08678,dElhI,Name is missing
-C0164,BHAVNA MEHTA,bhavna.mehta41@yahoo.co.in,947598762,Mumbai,Phone is invalid
-C0165,,SANA.SHEIKH71@GMAIL.COM,6149216433, Ahmedabad,Name is missing
-C0166,,anil.pillai18@northwind.com,98845-78317,kolkata,Name is missing
-C0167,POOJA PILLAI,pooja.pillai97@outlook.com,893085368,Mumbai,Phone is invalid
-C0168,,amit.bose37@yahoo.co.in,72417 97497,hyderabad,Name is missing
-C0169,  anil kumar ,anil.kumar44@outlook.com,870512abcd,mumbai,Phone is invalid
-C0170,Divya Babu,,6837645208,Chennai,Email is missing
-C0171,,DIVYA.DESAI98@GMAIL.COM,6273585730,Delhi,Name is missing
-C0177,Jo,  ARUN.DAS5@OUTLOOK.COM  ,96139 06048,mUmbai,Name is too short
-C0180,,   manoj.kumar85@yahoo.co.in   ,76815 79812,Ahmedabad,Name is missing
-C0182,divya das,,72482 62925,pune,Email is missing
-C0183,Suresh Khan,,69949 99393, hYderAbAD   ,Email is missing
-C0184,  Kavya Singh   ,,9609656999,Hyderabad,Email is missing
-C0193,ANIL JOSHI,anil.joshi65@northwind.com,852182307,PUNE,Phone is invalid
-C0195,Jo,   MANOJ.KHAN70@OUTLOOK.COM,6601662997,   CheNnai   ,Name is too short
+N0001,Divya Menon,divya.menon65@@rediffmail.com,+91-6399869879,hyderabad,Email is invalid
+N0003,Ishita Babu,ishita.babu68@@yahoo.co.in,9978809320,Jaipur,Email is invalid
+N0008, Al,lakshmi.reddy76@rediffmail.com,76957 93186, Mumbai ,Name is too short
+N0011,RAHUL KAPOOR,,0491452441,Chennai,Email is missing; Phone is invalid
+N0013,,  divya.khan99@outlook.com ,8908538012,Pune,Name is missing
+N0018,Gaurav Desai,  gaurav.desai46.rediffmail.com ,07802582201,HYDERABAD,Email is invalid
+N0019,Kiran Babu,kiran.babu34@rediffmail.com,815771883,  Ahmedabad  ,Phone is invalid
+N0024,,  arun.rao24@rediffmail.com  ,,Chennai,Name is missing; Phone is missing
+N0025,suresh das,suresh.das7@outlook.com,4884791889,Delhi,Phone is invalid
+N0027,Neha Reddy,neha reddy@rediffmail.com,72290-04422,Jaipur,Email is invalid
+N0028,Meera5 Khan,meera.khan29@rediffmail.com,08817625280,hyderabad,Name is invalid
+N0029,Ishita Singh,ishita.singh48@@northwind.com,5675347897,Bengaluru,Email is invalid; Phone is invalid
+N0030,Swati Kumar,  @northwind.com ,08456078745,  Mumbai ,Email is invalid
+N0033,ARJUN JOSHI,arjun joshi@northwind.com,8385469059,  MUMBAI ,Email is invalid
+N0035,Arjun Singh,arjun.singh84@outlook,6412143049,  Ahmedabad,Email is invalid
+N0037,Fatima Chopra93,fatima.chopra42@northwind.com,98120-61769,Delhi,Name is invalid
+N0038,,yusuf.kumar4@yahoo.co.in,77913 72987,Mumbai,Name is missing
+N0043, b3avna bose ,bhavna.bose45@rediffmail.com,+91-6635401152,Kolkata,Name is invalid
+N0047, sanjay chopra  ,,9795965056,CHENNAI,Email is missing
+N0049,Sanjay Rao,sanjay.rao18@outlook.com,646587306,Jaipur,Phone is invalid
+N0052,ROHIT BOSE,rohit bose@rediffmail.com,+91-6853470424,Pune,Email is invalid
+N0054,Ishita Desai,ishita.desai8@yahoo.co.in,838488568,HYDERABAD,Phone is invalid
+N0059, Z3ra Reddy,zara.reddy35@yahoo.co.in,9026195680,hyderabad,Name is invalid
+N0060,Fatima Patel,fatima.patel26@northwind,+91-6570304887, jaipur,Email is invalid
+N0064,Imran Das,"imran.das60@gmail,com",88124 17264,kolkata,Email is invalid
+N0065,Al,rohit.khan20@northwind.com,6426283709,delhi,Name is too short
+N0070,  Anil Gupta  ,  ,07223863787,Hyderabad,Email is missing
+N0071,  Kiran Kapoor ,KIRAN.KAPOOR91.NORTHWIND.COM,94476 60471,Bengaluru,Email is invalid
+N0074,  ISHITA MEHTA  ,ishita.mehta15@gmail.com,,mumbai,Phone is missing
+N0075,Fatima Rao,fatima.rao90@@outlook.com,74431-77466,Mumbai,Email is invalid
+N0076,Suresh Khan,suresh khan@outlook.com,9725218990,bengaluru,Email is invalid
+N0077,Jo,  anil.joshi25@gmail.com,79471 50295, mumbai  ,Name is too short
+N0079,K3ran Gupta,kiran.gupta55@gmail.com,+91-8083781959,  HYDERABAD ,Name is invalid
+N0088,Jo,rohit.kumar10@rediffmail.com,67229 03575,JAIPUR,Name is too short
+N0092,Karthik Mehta,karthik.mehta42.rediffmail.com,9627125204,Kolkata,Email is invalid
+N0093,DEEPA PILLAI,deepa.pillai31@yahoo.co.in,5271052865,Chennai,Phone is invalid
+N0097,divya chopra,divya.chopra83@rediffmail.com,,Ahmedabad,Phone is missing
+N0098, NIKHIL SHARMA ,  nikhil.sharma29.northwind.com,9445274368, Chennai ,Email is invalid
+N0102,Sanjay Chopra, sanjay.chopra25.gmail.com,84618 11833,JAIPUR,Email is invalid
+N0104,Sana Mehta,sana.mehta18@gmail.com,3662797367,Kolkata,Phone is invalid
+N0105,,harsh.chopra36@gmail.com,+91 7797496224,LUCKNOW,Name is missing
+N0106,Lakshmi Desai,lakshmi.desai78.yahoo.co.in,80439-74402,Pune,Email is invalid
+N0108,Harsh Patel,harsh.patel39@yahoo.co.in,4928452225,Chennai,Phone is invalid
+N0109,fatima mehta,fatima.mehta52.rediffmail.com,7995681621,CHENNAI,Email is invalid
+N0110,AL,rahul bose@outlook.com,87488 78101,Pune,Name is too short; Email is invalid
+N0111,ishita mehta,ishita.mehta17@northwind.com,2628720453, PUNE,Phone is invalid
+N0112,RAHUL KAPOOR,,919612055932,DELHI,Email is missing
+N0116,Vikram Sheikh,,84558 41957,Bengaluru,Email is missing
+N0117,Kiran Kapoor,kiran.kapoor14@rediffmail.com,,HYDERABAD,Phone is missing
+N0118,Anil Menon," anil.menon96@gmail,com ",6919652003,Kolkata,Email is invalid
+N0119,Meera Menon,meera.menon30.northwind.com,9562001108,Delhi,Email is invalid
+N0120,Vikram Kumar,@OUTLOOK.COM,77172-24599,HYDERABAD,Email is invalid
+N0121,Fatima Desai,fatima.desai35@@yahoo.co.in,6818695360,Kolkata,Email is invalid
+N0122,Ishita Das,ishita das@yahoo.co.in,06794643210, Ahmedabad,Email is invalid
+N0124,Kiran Rao,kiran.rao25@yahoo.co.in,675122808,  Kolkata  ,Phone is invalid
+N0125,,DEEPA.CHOPRA92@OUTLOOK.COM,+91 7130516167,Delhi,Name is missing
+N0126,Ritu Gupta,RITU GUPTA@REDIFFMAIL.COM,9482376858,Bengaluru,Email is invalid
+N0128,  Deepa Singh ,deepa.singh78@yahoo.co.in,,  Pune  ,Phone is missing
+N0131,Yusuf Babu, @outlook.com ,9800641735,  Chennai,Email is invalid
+N0135,Yusuf Bose,yusuf.bose60@rediffmail.com,3864026718, Kolkata ,Phone is invalid
+N0138, Al ,harsh.desai96@gmail.com,74157 43890,Ahmedabad,Name is too short
+N0139,  Anil Chopra, anil.chopra22@rediffmail.com,, Ahmedabad ,Phone is missing
+N0149,Amit Verma,AMIT VERMA@YAHOO.CO.IN,77050 06201,Pune,Email is invalid
+N0150,Pooja Kapoor,pooja.kapoor20@outlook.com,,pune,Phone is missing
+N0151,Manoj Menon,manoj menon@northwind.com,8476677634,CHENNAI,Email is invalid
+N0152,Jo,arun.iyer48@yahoo.co.in,8644332943,  Bengaluru,Name is too short
+N0156,Kavya Reddy, kavya.reddy43@rediffmail.com  ,724363184,Jaipur,Phone is invalid
+N0159,LAKSHMI PILLAI,@yahoo.co.in,79873 38366,  Hyderabad ,Email is invalid
+N0161,,karthik.chopra53@rediffmail.com,75040-61872,Chennai,Name is missing
+N0165,Karthik Kapoor,karthik kapoor@gmail.com,9411397415,Delhi,Email is invalid
+N0166,Arjun Mehta,arjun.mehta34.yahoo.co.in,918255269416,Bengaluru,Email is invalid
+N0169,Yusuf Iyer, yusuf iyer@gmail.com,8723873355,Chennai,Email is invalid
+N0170, N3khil Das ,nikhil.das58@outlook.com,8655472256,Mumbai,Name is invalid
+N0172, Suresh Mehta, suresh.mehta81.yahoo.co.in  ,+91 7113057178, Kolkata,Email is invalid
+N0173,Rohit Iyer,rohit iyer@yahoo.co.in,919087407407,  ahmedabad,Email is invalid
+N0178,Manoj Babu,  ,+91-7080112500,DELHI,Email is missing
+N0179,,pooja.menon22@northwind,06806984073,Mumbai,Name is missing; Email is invalid
+N0181,,MANOJ.REDDY17@REDIFFMAIL.COM,67777 28842,mumbai,Name is missing
+N0185,Divya Menon,divya menon@outlook.com,818371abcd, Hyderabad  ,Email is invalid; Phone is invalid
+N0186,K3rthik Kumar,karthik.kumar49@gmail.com,6419325827,Jaipur,Name is invalid
+N0188,,bhavna.kapoor6@yahoo.co.in,6264495414,Delhi,Name is missing
+N0190,VIKRAM MENON, vikram menon@rediffmail.com,+91-9915893756,mumbai,Email is invalid
+N0193,Bhavna Kapoor,bhavna.kapoor92@rediffmail,7112591389,HYDERABAD,Email is invalid
+N0198, Suresh Iyer , SURESH IYER@YAHOO.CO.IN ,7510555742,BENGALURU,Email is invalid
+N0203,Al,  divya.patel10.rediffmail.com ,0170049745,delhi,Name is too short; Email is invalid; Phone is invalid
+N0205,A3un Nair,  arun.nair62@outlook.com  ,6091729617,JAIPUR,Name is invalid
+N0206,jo,yusuf.kumar71.northwind.com,+91 8225265369,Chennai,Name is too short; Email is invalid
+N0209,,FATIMA.MEHTA69@YAHOO.CO.IN,917213676511, Jaipur ,Name is missing
+N0210,SNEHA KHAN,  @yahoo.co.in ,62008-62023,Mumbai,Email is invalid
+N0211, ,harsh.menon94@northwind.com,97177 21105,Lucknow,Name is missing
+N0212,Priya Singh,priya.singh88@@rediffmail.com,7539597733,JAIPUR,Email is invalid
+N0215, ,vikram.sharma28@yahoo.co.in,925200abcd,Lucknow,Name is missing; Phone is invalid
+N0216,Harsh Sharma,,96040 08793, Ahmedabad  ,Email is missing
+N0217, anjali iyer ,  @yahoo.co.in  ,72519 38261,chennai,Email is invalid
+N0220,Kavya Khan,"kavya.khan37@gmail,com",96380 99125,Ahmedabad,Email is invalid
+N0224,Anjali Gupta, @yahoo.co.in ,85509 64599,JAIPUR,Email is invalid
+N0230,sneha nair,sneha.nair35@northwind.com,,Hyderabad,Phone is missing
+N0231,Sneha Chopra,sneha.chopra54@northwind,893887265, Delhi  ,Email is invalid; Phone is invalid
+N0234,Priya Patel,priya.patel83@@gmail.com,+91-6871482786,Bengaluru,Email is invalid
+N0235,gaurav joshi,,7139339222, Hyderabad  ,Email is missing
+N0237,Meera Desai,meera desai@outlook.com,6405696784,Hyderabad,Email is invalid
+N0240,Imran Sharma12,  imran.sharma94@rediffmail.com,07427495118,Kolkata,Name is invalid
+N0241,,priya.reddy60@rediffmail.com,81365 02649,mumbai,Name is missing
+N0242,ARJUN GUPTA,arjun.gupta40@rediffmail.com,5133564326,Kolkata,Phone is invalid
+N0244,jo,zara.nair75@rediffmail.com,6497712147,bengaluru,Name is too short
+N0245,r3tu sharma,ritu.sharma13@outlook.com,07653546114,Pune,Name is invalid
+N0251,anil bose,anil bose@outlook.com,7275140396,Mumbai,Email is invalid
+N0257,Ishita Khan,ishita.khan41@northwind,89862 65524,Lucknow,Email is invalid
+N0264,Gaurav Sharma,gaurav.sharma23@rediffmail,+91 7416952498,Kolkata,Email is invalid
+N0267, M3noj Khan,manoj.khan46@outlook.com,09202927257,Lucknow,Name is invalid
+N0269,Suresh4 Khan, suresh.khan79@northwind.com  ,77290 43032,chennai,Name is invalid
+N0270,  Gaurav Joshi,,9862569527,Hyderabad,Email is missing
+N0271,Priya Desai,priya.desai85@rediffmail,7909486050,Kolkata,Email is invalid
+N0272,Meera Kapoor,meera.kapoor41.yahoo.co.in,71023-14032, DELHI,Email is invalid
+N0278,Vikram5 Babu,vikram.babu76@rediffmail.com,7953633768,Jaipur,Name is invalid
+N0280,Ishita Kapoor,ishita.kapoor2@northwind.com,,Chennai,Phone is missing
+N0283,Arjun Nair,arjun.nair70@gmail.com,0098968039,Mumbai,Phone is invalid
+N0292,Suresh Joshi,suresh.joshi96@@yahoo.co.in,77516 37456,  pune,Email is invalid
+N0297,Jo,fatima.desai75@outlook.com,8743916598,Lucknow,Name is too short
+N0298,  S3njay Babu  ,sanjay.babu16@outlook.com,09864456912,KOLKATA,Name is invalid
+N0299,,  sanjay.kumar48@gmail.com,08731836658,Mumbai,Name is missing
