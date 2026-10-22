@@ -11,6 +11,9 @@ def clean_email(email):
     return email.strip().lower()
 
 def clean_phone(phone):
+    phone = phone.strip()
+    if not re.search(r"\d", phone):
+        return phone
     phone = re.sub(r"\D", "", phone)
     if len(phone) == 12 and phone.startswith("91"):
         return phone[2:]

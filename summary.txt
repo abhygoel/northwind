@@ -1,5 +1,5 @@
 Northwind customer data check
-Run date: 2026-10-14
+Run date: 2026-10-23
 Input file: customers_week4.csv
 
 Records checked: 300

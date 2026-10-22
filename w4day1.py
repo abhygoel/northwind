@@ -12,3 +12,5 @@ print(re.fullmatch(r"\d{6}", "500081"))
 print(re.fullmatch(r"\d{6}", "50008"))
 print(re.fullmatch(f"\d{6}", "5000811"))
 print(re.fullmatch(r"C\d{4}", "C0001"))
+
+print(re.search(r"\d","abcd"))
