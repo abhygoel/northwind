@@ -2,13 +2,17 @@ import pytest
 import checks
 import file_cleaner
 import csv
+from duplicates import DuplicateFinder
 
 def test_clean_file_end_to_end(tmp_path):
     input_path = tmp_path / "input.csv"
     input_path.write_text(
         "customer_id,name,email,phone,city\n"
         "C1,  ravi kumar ,RAVI@gmail.com,98765 43210,pune\n"
-        "C2,Al,bad-email,123,Delhi\n",
+        "C2,Ravi Kumar,ravi@gmail.com,9876543210,Pune\n"
+        "C3,Hari Kumar,hari@gmail.com,9876543210,Pune\n"
+        "C4,Ravi K,ravi@gmail.com,9876543211,Pune\n"
+        "C5,Al,bad-email,123,Delhi\n",
         encoding="utf-8",
     )
     cleancustomer = {
@@ -20,9 +24,10 @@ def test_clean_file_end_to_end(tmp_path):
     }
     clean_path = tmp_path / "clean.csv"
     problem_path = tmp_path / "problems.csv"
+    duplicate_path = tmp_path / "duplicate.csv"
+    review_path = tmp_path / "review.csv"
     summary_path = tmp_path / "summary.txt"
-
-    summary = file_cleaner.clean_file(input_path, clean_path, problem_path, summary_path)
+    summary = file_cleaner.clean_file(input_path, clean_path, problem_path, duplicate_path, review_path, summary_path)
 
     with open(clean_path, encoding="utf-8", newline="") as file:
         clean_rows = list(csv.DictReader(file))
@@ -30,22 +35,43 @@ def test_clean_file_end_to_end(tmp_path):
     with open(problem_path, encoding="utf-8", newline="") as file:
         problem_rows = list(csv.DictReader(file))
 
-    assert len(clean_rows) == 1
+    with open(duplicate_path, encoding="utf-8", newline="") as file:
+        duplicate_rows = list(csv.DictReader(file))
+
+    with open(review_path, encoding="utf-8", newline="") as file:
+        review_rows = list(csv.DictReader(file))
+
+    review_set = set()
+    for row in review_rows:
+        review_set.add((row["customer_id"], row["reason"]))
+
+    assert len(clean_rows) == 3
     assert clean_rows[0] == cleancustomer 
     assert len(problem_rows) == 1
-    assert problem_rows[0]["customer_id"] == "C2"
+    assert len(review_rows) == 4
+    assert len(duplicate_rows) == 1
+    assert problem_rows[0]["customer_id"] == "C5"
     assert problem_rows[0]["problems"] == "Name is too short; Email is invalid; Phone is invalid"
-    assert "Clean: 1" in summary
+    assert duplicate_rows[0]["customer_id"] == "C2"
+    assert duplicate_rows[0]["original_id"] == "C1"
+    assert "Clean: 3" in summary
     assert "Need fixing: 1" in summary
+    assert "Duplicates removed: 1" in summary
+    assert "Review: likely same person: 1 groups" in summary
+    assert "Review: shared phone: 1 groups" in summary
+    assert ("C4", "likely same person") in review_set
+    assert ("C3", "shared phone, check before merging") in review_set
     
 def test_clean_file_missing_input(tmp_path):
     input_path = tmp_path / "missing.csv"
     clean_path = tmp_path / "clean.csv"
     problem_path = tmp_path / "problems.csv"
+    duplicate_path = tmp_path / "duplicate.csv"
+    review_path = tmp_path / "review.csv"
     summary_path = tmp_path / "summary.txt"
 
-    with pytest.raises(FileNotFoundError, match = "doesn't exist."):
-        file_cleaner.clean_file(input_path, clean_path, problem_path, summary_path)
+    with pytest.raises(FileNotFoundError, match="doesn't exist"):
+        file_cleaner.clean_file(input_path, clean_path, problem_path, duplicate_path, review_path, summary_path)
 
 
 @pytest.mark.parametrize("email", [
@@ -169,3 +195,54 @@ def test_clean_customer():
     assert customer == original
     assert result == cleancustomer
 
+def make_finder(customers):
+    finder = DuplicateFinder()
+    for customer in customers:
+        finder.add(checks.clean_customer(customer))
+    return finder
+
+@pytest.fixture
+def sheikh_family():
+    return [
+        {"customer_id": "NW1", "name": "Lakshmi Sheikh", "email": "lakshmi@x.com",
+         "phone": "9876543210", "city": "Hyderabad"},
+        {"customer_id": "NW2", "name": "L. Sheikh", "email": "lakshmi@x.com",
+         "phone": "9876543210", "city": "Hyderabad"},
+        {"customer_id": "NW3", "name": "Sana Sheikh", "email": "sana@x.com",
+         "phone": "9876543210", "city": "Hyderabad"},
+        {"customer_id": "NW4", "name": "  sana SHEIKH ", "email": "SANA@X.COM",
+         "phone": "+91 98765 43210", "city": "hyderabad"},
+    ]
+
+def test_copies(sheikh_family):
+    finder = make_finder(sheikh_family)
+    assert finder.copies() == {"NW4": "NW3"}
+
+def test_same_email_finds_lakshmi(sheikh_family):
+    finder = make_finder(sheikh_family)
+    assert finder.same_email_groups() == {"lakshmi@x.com": ["NW1", "NW2"]}
+
+def test_shared_phone_includes_sana(sheikh_family):
+    finder = make_finder(sheikh_family)
+    assert finder.shared_phone_groups() == {"9876543210": ["NW1", "NW2", "NW3"]}
+
+def test_shared_phone_same_email():
+    customers = [
+        {"customer_id": "NW1", "name": "Lakshmi Sheikh", "email": "lakshmi@x.com",
+         "phone": "9876543210", "city": "Hyderabad"},
+        {"customer_id": "NW2", "name": "L. Sheikh", "email": "lakshmi@x.com",
+         "phone": "9876543210", "city": "Hyderabad"},
+    ]
+    finder = make_finder(customers)
+    assert finder.shared_phone_groups() == {}
+
+def test_same_email_blank_emailid():
+    customers = [
+        {"customer_id": "NW1", "name": "Lakshmi Sheikh", "email": "",
+         "phone": "9876543210", "city": "Hyderabad"},
+        {"customer_id": "NW2", "name": "L. Sheikh", "email": "",
+         "phone": "9876543210", "city": "Hyderabad"},
+    ]
+    finder = make_finder(customers)
+    assert finder.same_email_groups() == {}
+    
